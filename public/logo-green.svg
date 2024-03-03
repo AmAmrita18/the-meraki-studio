@@ -1,0 +1,22 @@
+<svg width="1500" height="1500" viewBox="0 0 1500 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4_53)">
+<line x1="-4.37114e-06" y1="881" x2="1500" y2="881" stroke="#486149" stroke-width="100"/>
+<line x1="-4.37114e-06" y1="1081" x2="1500" y2="1081" stroke="#486149" stroke-width="100"/>
+<line x1="-4.37114e-06" y1="1281" x2="1500" y2="1281" stroke="#486149" stroke-width="100"/>
+<line x1="-4.37114e-06" y1="1481" x2="1500" y2="1481" stroke="#486149" stroke-width="100"/>
+<mask id="mask0_4_53" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1500" height="750">
+<rect width="1500" height="750" fill="#986262"/>
+</mask>
+<g mask="url(#mask0_4_53)">
+<circle cx="750" cy="750" r="704" stroke="#486149" stroke-width="92"/>
+<circle cx="750" cy="750" r="507.698" stroke="#486149" stroke-width="92"/>
+<circle cx="750" cy="750" r="317.798" stroke="#486149" stroke-width="92"/>
+<circle cx="750" cy="750" r="122.563" fill="#486149" stroke="#486149" stroke-width="92"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_4_53">
+<rect width="1500" height="1500" rx="750" fill="white"/>
+</clipPath>
+</defs>
+</svg>
