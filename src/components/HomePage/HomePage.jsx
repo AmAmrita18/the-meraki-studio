@@ -4,6 +4,7 @@ import React from 'react'
 import Header from './Header'
 import Hero from './Hero'
 import HomeInfo from './HomeInfo'
+import HomeServices from './HomeServices'
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Header/>
         <Hero/>
         <HomeInfo/>
+        <HomeServices/>
     </div>
   )
 }
