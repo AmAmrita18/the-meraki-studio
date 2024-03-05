@@ -1,8 +1,13 @@
 import React from 'react'
+import HeaderWorks from './HeaderWorks'
+import Favourite5 from './Favourite5'
 
 const Works = () => {
   return (
-    <div>Works</div>
+    <div>
+      <HeaderWorks/>
+      <Favourite5/>
+    </div>
   )
 }
 
