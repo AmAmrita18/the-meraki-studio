@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-white">
-      <div className="w-[90%] pl-20 pr-5 bg-white  h-full max-w-[1200px] flex justify-between pt-2 pb-5">
+    <div className="w-full bg-transparent ">
+      <div className="w-[90%] pl-20 pr-5 bg-transparent   h-full max-w-[1200px] flex justify-between pt-2 pb-5">
         <div className="flex flex-row gap-x-8 items-center">
           <h1 className="text-black pl-3 text-[10px] font-[800] tracking-wider">SOCIAL:</h1>
           <ul className="text-black pl-3 text-[10px] font-[800] flex flex-row gap-x-4 tracking-wider">
