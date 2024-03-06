@@ -9,7 +9,7 @@ import HomeContact from './HomeContact'
 
 const HomePage = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full bg-white'>
         <Header/>
         <Hero/>
         <HomeInfo/>

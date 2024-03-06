@@ -4,7 +4,7 @@ import Favourite5 from './Favourite5'
 
 const Works = () => {
   return (
-    <div>
+    <div className='w-full bg-white'>
       <HeaderWorks/>
       <Favourite5/>
     </div>
