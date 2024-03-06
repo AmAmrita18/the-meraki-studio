@@ -16,7 +16,7 @@ import HomeContact from "./HomeContact";
 
 const HomeSliderVertical = () => {
   return (
-    <div>
+    <div className="md:flex hidden">
       <SwiperSlide>
         <Swiper
           className="mySwiper2 swiper-v"
@@ -32,9 +32,7 @@ const HomeSliderVertical = () => {
             <div className="w-full  h-full mx-auto max-w-[1200px] ">
               {" "}
               <SwiperSlide className="h-full">
-               
                 <Hero />
-                {/* <HomeInfo /> */}
               </SwiperSlide>
               <SwiperSlide className="h-full">
                 <HomeServices />

@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="w-full">
       <Header/>
       <div
-      className="w-full h-[135px] m-w-[1200px] relative  mt-28"
+      className="w-full h-[135px] m-w-[1200px] relative  mt-28 md:flex hidden"
       style={{
         backgroundImage: `url('${heroImg}')`,
         backgroundRepeat: "no-repeat",

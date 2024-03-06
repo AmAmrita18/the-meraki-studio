@@ -26,8 +26,8 @@ const Navbar = () => {
 
   return (
     <div className="w-full relative ">
-      <div className="flex  w-[90px]  h-[90px] fixed top-0 bottom-0 right-0   justify-start rotate-90 items-center z-30">
-        <div className="border-[#A4A4A4] border-b w-screen ">
+      <div className="flex  w-[90px]  h-[90px] fixed top-0 bottom-0 right-0  md:pl-0 pl-8   justify-start md:rotate-90 items-center z-30">
+        <div className="border-[#A4A4A4] md:flex hidden border-b w-screen ">
           <nav className="bg-white   md:pr-64 md:pl-20 px-0 py-[33px] ">
             <ul className="md:flex hidden lg:gap-x-14 md:gap-x-8 items-center  gap-4 md:text-[13px] tracking-wider text-[10px] font-[600] text-[#A4A4A4] leading-6">
               <li className="transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
@@ -66,24 +66,27 @@ const Navbar = () => {
           </nav>
         </div>
 
-        <div className="md:hidden flex justify-center items-center">
+        <div className="md:hidden flex  z-40 justify-center mt-4 items-center">
           <div
             onClick={toggleMenu}
-            className="text-[#FFFFFF] cursor-pointer focus:outline-none"
+            className="    cursor-pointer focus:outline-none"
           >
             {isMenuOpen ? (
-              <IoIosCloseCircle onClick={toggleMenu} className="w-10 h-10 " />
+              <IoIosCloseCircle onClick={toggleMenu} className="w-10 h-10  " />
             ) : (
-              <FaBars onClick={toggleMenu} className="w-6 h-6" />
+              <FaBars
+                onClick={toggleMenu}
+                className="w-6 h-6 text-[#FFFFFF] "
+              />
             )}
           </div>
         </div>
         <div
-          className={`space-y-4  w-[85%]  rounded-2xl max-w-[1200px] mx-auto px-4 md:hidden mt-16 py-32 bg-[#0A385A] opacity-90 ${
-            isMenuOpen ? "block fixed top-14 right-0 left-0" : "hidden"
+          className={`space-y-4  z-10  w-[100%] h-screen max-w-[1200px] mx-auto px-4 md:hidden  py-32 bg-white opacity-100 ${
+            isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"
           }`}
         >
-          <ul className=" flex flex-col items-center  lg:gap-x-14 md:gap-x-8  gap-8 md:text-[17px] text-[15px] font-[700] text-[#A4A4A4] leading-6">
+          <ul className=" flex flex-col items-center  lg:gap-x-14 md:gap-x-8  gap-8  text-[20px] font-[700] text-[#A4A4A4] tracking-wider leading-[24px]">
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <NavLink
                 to="/"
@@ -117,6 +120,22 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <div className="flex flex-col justify-center pt-16 gap-y-10 pb-10 items-center">
+            <ul className="flex flex-row justify-between gap-40 text-[10px] font-[700] text-black leading-[12px] tracking-wider">
+              <li>/FACEBOOK</li>
+              <li>/LINKEDIN</li>
+            </ul>
+            <ul className="text-[10px] font-[700] text-black leading-[12px] tracking-wider">
+              <li>/INSTAGRAM</li>
+            </ul>
+          </div>
+          <div className="flex w-full justify-center  bg-black">
+          <button className=" text-white py-6 text-[18px] font-[600] text-center">SEND</button>
+          </div>
+          <div className="flex flex-row gap-4 justify-center pt-8">
+            <p className="text-[10px] font-[700] text-black leading-[12px] tracking-wider">2024</p>
+            <p className="text-[10px] font-[700] text-black leading-[12px] tracking-wider">THE MERAKI STUDIO</p>
+          </div>
         </div>
       </div>
     </div>
