@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: white;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -24,7 +24,7 @@ body {
 .swiper-slide {
   /* text-align: center; */
   font-size: 18px;
-  background: #fff;
+  background: white;
 
   /* Center slide text vertically */
   display: flex;
@@ -42,7 +42,7 @@ body {
 }
 
 .swiper-v {
-  background: #eee;
+  background: white;
 }
 .swiper-pagination-vertical {
   display: flex;
@@ -60,7 +60,7 @@ body {
 }
 
 .swiper-pagination-bullet {
-  background-color: #fff;
+  background-color: white;
   opacity: 1;
   height: 13px;
   width: 13px;

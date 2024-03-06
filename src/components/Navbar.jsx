@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <div className="w-full relative ">
-      <div className="flex  w-[90px]  h-[90px] absolute right-0 top-0   justify-start rotate-90 items-center z-30">
+      <div className="flex  w-[90px]  h-[90px] fixed top-0 bottom-0 right-0   justify-start rotate-90 items-center z-30">
         <div className="border-[#A4A4A4] border-b w-screen ">
           <nav className="bg-white   md:pr-64 md:pl-20 px-0 py-[33px] ">
-            <ul className="md:flex hidden lg:gap-x-14 md:gap-x-8 items-center  gap-4 md:text-[13px] space-x-2 text-[10px] font-[600] text-[#A4A4A4] leading-6">
+            <ul className="md:flex hidden lg:gap-x-14 md:gap-x-8 items-center  gap-4 md:text-[13px] tracking-wider text-[10px] font-[600] text-[#A4A4A4] leading-6">
               <li className="transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
                 <NavLink
                   to="/"
@@ -79,7 +79,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className={`space-y-4 w-[85%]  rounded-2xl max-w-[1200px] mx-auto px-4 md:hidden mt-16 py-32 bg-[#0A385A] opacity-90 ${
+          className={`space-y-4  w-[85%]  rounded-2xl max-w-[1200px] mx-auto px-4 md:hidden mt-16 py-32 bg-[#0A385A] opacity-90 ${
             isMenuOpen ? "block fixed top-14 right-0 left-0" : "hidden"
           }`}
         >

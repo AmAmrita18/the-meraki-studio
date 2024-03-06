@@ -50,7 +50,7 @@ const ContactInfo = () => {
             </div>
             <form className="flex flex-col items-end pr-16 gap-y-6 ml-20 pt-16">
               <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
-                <label className="text-black pl-3 text-[12px] font-[600] ">
+                <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   NAME
                 </label>
                 <input
@@ -60,11 +60,11 @@ const ContactInfo = () => {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder=""
-                  className="bg-transparent pl-3 text-[14px] font-[500] mb-2 w-full  placeholder:text-black outline outline-0 focus:outline-0"
+                  className="bg-transparent tracking-wider pl-3 text-[14px] font-[500] mb-2 w-full  placeholder:text-black outline outline-0 focus:outline-0"
                 />
               </div>
               <div className="text-[#0A385A]  w-full border-b border-[#8D8D8D] ">
-                <label className="text-black pl-3 text-[12px] font-[600] ">
+                <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   EMAIL
                 </label>
                 <input
@@ -74,11 +74,11 @@ const ContactInfo = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder=""
-                  className="bg-transparent pl-3 mb-2 text-[14px] font-[500]  w-full  placeholder:text-black outline outline-0 focus:outline-0"
+                  className="bg-transparent tracking-wider pl-3 mb-2 text-[14px] font-[500]  w-full  placeholder:text-black outline outline-0 focus:outline-0"
                 />
               </div>
               <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
-                <label className="text-black pl-3 text-[12px] font-[600] ">
+                <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   MESSAGE
                 </label>
                 <input
@@ -88,11 +88,11 @@ const ContactInfo = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder=""
-                  className="bg-transparent pl-3 mb-2 text-[14px] font-[500]  w-full  placeholder:text-black outline outline-0 focus:outline-0"
+                  className="bg-transparent tracking-wider pl-3 mb-2 text-[14px] font-[500]  w-full  placeholder:text-black outline outline-0 focus:outline-0"
                 />
               </div>
               <div className="flex ">
-                <button className="w-[180px] h-[38px] mt-20 mb-16  text-[12px] font-[600] text-white bg-black ">
+                <button className="w-[180px] h-[38px] mt-20 mb-10  text-[12px] font-[600] text-white bg-black tracking-wider ">
                   SEND
                 </button>
               </div>

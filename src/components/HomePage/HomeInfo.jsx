@@ -3,8 +3,8 @@ import React from "react";
 const HomeInfo = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%]  pl-20 pr-5 h-full max-w-[1200px] py-16">
-        <div className="flex flex-row justify-between gap-x-32 my-14">
+      <div className="w-[90%]  pl-20 pr-5 h-full max-w-[1200px] py-16 mt-28">
+        <div className="flex flex-row justify-between gap-x-32 my-44">
           <div>
             <h1 className="text-black text-[38px] font-[700]">DESIGN +</h1>
             <h1 className="text-black text-[38px] font-[700]">DEVELOPMENT</h1>
