@@ -63,7 +63,7 @@ const HomeContact = () => {
               />
             </div>
             <div className="flex ">
-              <button className="w-[180px] h-[38px] tracking-wider my-24  text-[12px] font-[600] text-white bg-black ">
+              <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 tracking-wider my-24  text-[12px] font-[600] text-white bg-black ">
                 SEND
               </button>
             </div>
@@ -77,4 +77,4 @@ const HomeContact = () => {
 export default HomeContact;
 
 
-// transition-all duration-700 ease-in-out  hover:scale-95
+

@@ -69,7 +69,7 @@ const HomeServices = () => {
             <div className="w-[48%] h-[816px]">
               <div className="px-20">
                 <div className="flex justify-end">
-                  <button className="w-[180px] h-[38px] my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>
@@ -125,7 +125,7 @@ const HomeServices = () => {
             <div className="w-[48%] h-[816px]">
               <div className="px-20">
                 <div className="flex justify-end">
-                  <button className="w-[180px] h-[38px] my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>
@@ -181,7 +181,7 @@ const HomeServices = () => {
             <div className="w-[48%] h-[816px]">
               <div className="px-20">
                 <div className="flex justify-end">
-                  <button className="w-[180px] h-[38px] my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>

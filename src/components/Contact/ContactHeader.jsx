@@ -13,7 +13,7 @@ const ContactHeader = () => {
                 CONTACT
               </h1>
             </div>
-            <button className="w-[180px] h-[38px] text-[12px] font-[600] text-white bg-black">
+            <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 text-[12px] font-[600] text-white bg-black">
               HIRE US
             </button>
           </div>

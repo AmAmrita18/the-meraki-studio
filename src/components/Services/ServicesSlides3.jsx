@@ -46,7 +46,7 @@ const ServicesSlides3 = () => {
                     SEO
                   </h1>
                 </div>
-                <button className="w-[180px]  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
@@ -61,11 +61,11 @@ const ServicesSlides3 = () => {
                     GIVING YOU A ROBUST SEO BLUEPRINT COMPLIANT WITH THE LATEST
                     STARDARDS.{" "}
                   </p>
-                  <button className="bg-black w-[70px] mt-16">
+                  {/* <button className="bg-black w-[70px] mt-16">
                     <h1 className="text-white text-[9px] font-[700]">
                       SCROLL DOWN
                     </h1>
-                  </button>
+                  </button> */}
                 </div>
                 <ul className="w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
                   <li className="flex flex-row gap-1">
@@ -103,7 +103,7 @@ const ServicesSlides3 = () => {
                     GROW
                   </h1>
                 </div>
-                <button className="w-[180px]  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
@@ -119,11 +119,11 @@ const ServicesSlides3 = () => {
                     WE PROVIDE THE STRATEGIES AND TOOLS YOU NEED TO EXPAND YOUR
                     REACH AND GROW YOUR PROFITS.
                   </p>
-                  <button className="bg-black w-[70px] mt-16">
+                  {/* <button className="bg-black w-[70px] mt-16">
                     <h1 className="text-white text-[9px] font-[700]">
                       SCROLL DOWN
                     </h1>
-                  </button>
+                  </button> */}
                 </div>
                 <ul className="w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
                   <li className="flex  flex-row gap-1">

@@ -92,7 +92,7 @@ const ContactInfo = () => {
                 />
               </div>
               <div className="flex ">
-                <button className="w-[180px] h-[38px] mt-20 mb-10  text-[12px] font-[600] text-white bg-black tracking-wider ">
+                <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 mt-12 mb-10  text-[12px] font-[600] text-white bg-black tracking-wider ">
                   SEND
                 </button>
               </div>

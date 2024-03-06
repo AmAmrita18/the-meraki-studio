@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className='bg-black'>
+          {/* <button className='bg-black'>
               <h1 className='text-white text-[9px] font-[700] tracking-wider'>SCROLL DOWN</h1>
-            </button>
+            </button> */}
         </div>
         <div className="flex flex-row ml-20">
           <h1 className="text-black pl-3 text-[10px] font-[800] tracking-wider">2024</h1>

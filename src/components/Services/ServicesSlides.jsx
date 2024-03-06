@@ -46,7 +46,7 @@ const ServicesSlides = () => {
                     WEB
                   </h1>
                 </div>
-                <button className="w-[180px]  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px]  h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 text-[12px] mr-28 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
@@ -63,9 +63,11 @@ const ServicesSlides = () => {
                   <p className="text-[10px] font-[700] leading-[25px] tracking-wider text-black">
                     WE FOCUS ON WHAT YOU NEED.
                   </p>
-                  <button className='bg-black w-[70px] mt-16'>
-              <h1 className='text-white text-[9px] font-[700]'>SCROLL DOWN</h1>
-            </button>
+                  {/* <button className="bg-black w-[70px] mt-16">
+                    <h1 className="text-white text-[9px] font-[700]">
+                      SCROLL DOWN
+                    </h1>
+                  </button> */}
                 </div>
                 <ul className="w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
                   <li className="flex  flex-row gap-1">
@@ -107,7 +109,7 @@ const ServicesSlides = () => {
                     LAUNCH
                   </h1>
                 </div>
-                <button className="w-[180px]  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px]  h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 text-[12px] mr-28 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
@@ -125,9 +127,11 @@ const ServicesSlides = () => {
                     FROM INITIAL IDEA TO OPENING DAY, WE'RE WITH YOU ALL THE
                     WAY. WE MAKE SURE YOUR BUSINESS GETS OFF TO A FLYING START.
                   </p>
-                  <button className='bg-black w-[70px] mt-16'>
-              <h1 className='text-white text-[9px] font-[700]'>SCROLL DOWN</h1>
-            </button>
+                  {/* <button className="bg-black w-[70px] mt-16">
+                    <h1 className="text-white text-[9px] font-[700]">
+                      SCROLL DOWN
+                    </h1>
+                  </button> */}
                 </div>
                 <ul className="w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
                   <li className="flex  flex-row gap-1">
