@@ -7,7 +7,7 @@ const HomeContact = () => {
 
   return (
     <div className="w-full">
-      <div className="w-full  md:pl-20 pl-5 md:pr-5 pr-10 h-full md:pt-20 pt-4 md:pb-10   flex md:flex-row flex-col">
+      <div className="w-full  md:pl-20 pl-5 pr-5 h-full md:pt-20 pt-4 md:pb-10   flex md:flex-row flex-col">
         <div className="md:w-[48%] w-full">
           <div>
             <h1 className="text-black md:text-[85px] text-[49px] md:px-8   font-[700] md:leading-[75px] leading-[45px]">

@@ -7,8 +7,8 @@ const ContactInfo = () => {
   return (
     <div>
       <div className="w-full">
-        <div className="w-full  pl-20 pr-5 h-full pt-8  m-w-[1200px]  flex flex-row">
-          <div className="w-[48%]">
+        <div className="w-full  md:pl-20 pl-5 md:pr-5 pr-8 h-full pt-8  m-w-[1200px]  flex  md:flex-row flex-col">
+          <div className="md:w-[48%] md:flex hidden">
             <div className="flex flex-col gap-y-8">
               <div className="flex flex-row gap-x-20 items-center">
                 <h2 className="text-[10px] text-black font-[800] tracking-wider leading-[12px]">
@@ -38,17 +38,23 @@ const ContactInfo = () => {
               </div>
             </div>
           </div>
-
-          <div className="w-[48%]">
-            <div className="px-28">
-              <p className="text-black font-[700] text-[10px] tracking-wider leading-[12px]">
+          <div className="md:w-[48%] md:hidden flex w-full">
+            <div>
+              <h1 className="text-black md:text-[85px] text-[49px] md:px-8   font-[700] md:leading-[75px] leading-[45px]">
+                SEND US A REQUEST TO CREATE UNIQUE PROJECT FOR YOU
+              </h1>
+            </div>
+          </div>
+          <div className="md:w-[48%] w-full">
+            <div className="md:px-28 md:pt-0 pt-16">
+              <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
                 GET IN TOUCH TODAY - WE’RE AT YOUR SERVICE.
               </p>
-              <p className="text-black font-[700] text-[10px] tracking-wider leading-[12px]">
+              <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
                 DROP A NOTE, AND WE’LL GET BACK TO YOU PROMPTLY
               </p>
             </div>
-            <form className="flex flex-col items-end pr-16 gap-y-6 ml-20 pt-16">
+            <form className="flex flex-col items-end md:pr-16 gap-y-6 md:ml-20 pt-16">
               <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
                 <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   NAME
@@ -60,7 +66,7 @@ const ContactInfo = () => {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   placeholder=""
-                  className="bg-transparent tracking-wider pl-3 text-[14px] font-[500] mb-2 w-full  placeholder:text-black outline outline-0 focus:outline-0"
+                  className="bg-transparent tracking-wider pl-3 text-[14px]  font-[500] mb-2 w-full  placeholder:text-black outline outline-0 focus:outline-0"
                 />
               </div>
               <div className="text-[#0A385A]  w-full border-b border-[#8D8D8D] ">
@@ -91,14 +97,20 @@ const ContactInfo = () => {
                   className="bg-transparent tracking-wider pl-3 mb-2 text-[14px] font-[500]  w-full  placeholder:text-black outline outline-0 focus:outline-0"
                 />
               </div>
-              <div className="flex ">
-                <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 mt-12 mb-10  text-[12px] font-[600] text-white bg-black tracking-wider ">
+              <div className="md:flex hidden">
+                <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 tracking-wider mt-16 mb-12  text-[12px] font-[600] text-white bg-black ">
+                  SEND
+                </button>
+              </div>
+              <div className="md:hidden mt-16 flex transition-all duration-700 ease-in-out  hover:scale-95 w-full justify-center  bg-black">
+                <button className=" text-white py-6 text-[18px] font-[600] text-center">
                   SEND
                 </button>
               </div>
             </form>
           </div>
         </div>
+        {/* for mobile  */}
       </div>
     </div>
   );

@@ -7,10 +7,10 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 const Favourite5 = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%]  pl-20 ml-6 pr-5 flex flex-col gap-y-28  h-full  py-16">
-        <div className="flex flex-row mt-8">
-          <div className="w-[48%] mr-16 flex flex-col gap-y-8 py-8">
-            <h1 className="text-black text-[38px] font-[700] leading-[46.32px] text-end">
+      <div className="md:w-[90%]  md:pl-20 ml-6 pr-5 flex flex-col gap-y-28  h-full  py-16">
+        <div className="flex md:flex-row flex-col-reverse md:mt-8">
+          <div className="md:w-[48%] md:mr-16 flex flex-col gap-y-8 py-8">
+            <h1 className="text-black md:flex hidden text-[38px] font-[700] leading-[46.32px] text-end">
               CENTRE D’AMITIÉ
             </h1>
             <div className="flex flex-col">
@@ -31,14 +31,17 @@ const Favourite5 = () => {
               </button>
             </div>
           </div>
-          <div className="w-[48%] ">
+          <div className="md:w-[48%] ">
+          <h1 className="text-black md:hidden flex mb-8 text-[22px] font-[700] leading-[46.32px] text-end">
+              CENTRE D’AMITIÉ
+            </h1>
             <img src={centreDAmitie} alt="" width={541} height={753} />
           </div>
         </div>
 
-        <div className="flex flex-row-reverse">
-          <div className="w-[48%] ml-16 flex flex-col gap-y-8 py-8">
-            <h1 className="text-black text-[38px] font-[700] leading-[46.32px] text-start">
+        <div className="flex md:flex-row-reverse flex-col-reverse">
+          <div className="md:w-[48%] md:ml-16 flex flex-col gap-y-8 py-8">
+            <h1 className="text-black md:flex hidden text-[38px] font-[700] leading-[46.32px] text-start">
             GML SEAFOOD
             </h1>
             <div className="flex flex-col">
@@ -59,23 +62,25 @@ const Favourite5 = () => {
               </button>
             </div>
           </div>
-          <div className="w-[48%] ">
+          <div className="md:w-[48%] ">
+          <h1 className="text-black md:hidden flex mb-8 text-[22px] font-[700] leading-[46.32px] text-start">
+            GML SEAFOOD
+            </h1>
             <img src={GMLSeafood} alt="" width={541} height={753} />
           </div>
         </div>
 
-        <div className="flex flex-row">
-          <div className="w-[48%] mr-16 flex flex-col gap-y-8 py-8">
-            <h1 className="text-black text-[38px] font-[700] leading-[46.32px] text-end">
-            BELINDA TOURS
+        <div className="flex md:flex-row flex-col-reverse md:mt-8">
+          <div className="md:w-[48%] md:mr-16 flex flex-col gap-y-8 py-8">
+            <h1 className="text-black md:flex hidden text-[38px] font-[700] leading-[46.32px] text-end">
+            BELINDA TOURS 
             </h1>
             <div className="flex flex-col">
               <h2 className="text-black text-[10px] leading-[24px] font-[700] space-x-2 text-end ">
                 FAVOURITE #3
               </h2>
               <h2 className="text-black text-[10px] leading-[24px] font-[700] space-x-2 text-end ">
-              BOAT CRUISES
-              </h2>
+BOAT CRUISES              </h2>
               <h2 className="text-black text-[10px] leading-[40px] font-[700] space-x-2 ">
                 DESIGN & DEV
               </h2>
@@ -87,19 +92,21 @@ const Favourite5 = () => {
               </button>
             </div>
           </div>
-          <div className="w-[48%] ">
+          <div className="md:w-[48%] ">
+          <h1 className="text-black md:hidden flex mb-8 text-[22px] font-[700] leading-[46.32px] text-end">
+BELINDA TOURS            </h1>
             <img src={centreDAmitie} alt="" width={541} height={753} />
           </div>
         </div>
 
-        <div className="flex flex-row-reverse">
-          <div className="w-[48%] ml-16 flex flex-col gap-y-8 py-8">
-            <h1 className="text-black text-[38px] font-[700] leading-[46.32px] text-start">
-            LEAVE BLANK
+        <div className="flex md:flex-row-reverse flex-col-reverse">
+          <div className="md:w-[48%] md:ml-16 flex flex-col gap-y-8 py-8">
+            <h1 className="text-black md:flex hidden text-[38px] font-[700] leading-[46.32px] text-start">
+            COMING SOON
             </h1>
             <div className="flex flex-col">
               <h2 className="text-black text-[10px] leading-[24px] font-[700] space-x-2 text-start ">
-                FAVOURITE #3
+                FAVOURITE #2
               </h2>
               <h2 className="text-black text-[10px] leading-[24px] font-[700] space-x-2 text-start ">
               LOREM IPSUM
@@ -115,22 +122,25 @@ const Favourite5 = () => {
               </button>
             </div>
           </div>
-          <div className="w-[48%] ">
+          <div className="md:w-[48%] ">
+          <h1 className="text-black md:hidden flex mb-8 text-[22px] font-[700] leading-[46.32px] text-start">
+            COMING SOON
+            </h1>
             <img src={GMLSeafood} alt="" width={541} height={753} />
           </div>
         </div>
 
-        <div className="flex flex-row">
-          <div className="w-[48%] mr-16 flex flex-col gap-y-8 py-8">
-            <h1 className="text-black text-[38px] font-[700] leading-[46.32px] text-end">
-            LEAVE BLANK
+        <div className="flex md:flex-row flex-col-reverse md:mt-8">
+          <div className="md:w-[48%] md:mr-16 flex flex-col gap-y-8 py-8">
+            <h1 className="text-black md:flex hidden text-[38px] font-[700] leading-[46.32px] text-end">
+              COMING SOON
             </h1>
             <div className="flex flex-col">
               <h2 className="text-black text-[10px] leading-[24px] font-[700] space-x-2 text-end ">
                 FAVOURITE #1
               </h2>
               <h2 className="text-black text-[10px] leading-[24px] font-[700] space-x-2 text-end ">
-              LOREM IPSUM
+                LOREM IPSUM
               </h2>
               <h2 className="text-black text-[10px] leading-[40px] font-[700] space-x-2 ">
                 DESIGN & DEV
@@ -143,7 +153,10 @@ const Favourite5 = () => {
               </button>
             </div>
           </div>
-          <div className="w-[48%] ">
+          <div className="md:w-[48%] ">
+          <h1 className="text-black md:hidden flex mb-8 text-[22px] font-[700] leading-[46.32px] text-end">
+              COMING SOON
+            </h1>
             <img src={centreDAmitie} alt="" width={541} height={753} />
           </div>
         </div>

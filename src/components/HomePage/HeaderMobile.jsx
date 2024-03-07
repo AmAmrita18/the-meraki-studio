@@ -40,7 +40,7 @@ const HeaderMobile = () => {
           </h1>
         </div>
         <div className="flex w-full justify-center  bg-black">
-          <button className=" text-white py-6 text-[18px] font-[600] text-center">
+          <button className=" text-white transition-all duration-700 ease-in-out  hover:scale-95 py-6 text-[18px] font-[600] text-center">
             HIRE US
           </button>
         </div>

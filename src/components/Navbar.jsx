@@ -76,7 +76,7 @@ const Navbar = () => {
             ) : (
               <FaBars
                 onClick={toggleMenu}
-                className="w-6 h-6 text-[#FFFFFF] "
+                className="w-6 h-6 text-white bg-black rounded-sm "
               />
             )}
           </div>
