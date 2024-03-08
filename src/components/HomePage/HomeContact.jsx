@@ -7,16 +7,16 @@ const HomeContact = () => {
 
   return (
     <div className="w-full">
-      <div className="w-full  md:pl-20 pl-5 pr-5 h-full md:pt-20 pt-4 md:pb-10   flex md:flex-row flex-col">
-        <div className="md:w-[48%] w-full">
+      <div className="w-full  md:pl-20 pl-5 pr-5 h-full md:pt-20 pt-4 md:pb-10   flex lg:flex-row flex-col lg:gap-y-0 md:gap-y-20 gap-y-0">
+        <div className="lg:w-[48%] w-full">
           <div>
-            <h1 className="text-black md:text-[85px] text-[49px] md:px-8   font-[700] md:leading-[75px] leading-[45px]">
+            <h1 className="text-black lg::text-[85px] md:text-[73px] text-[49px] md:px-8   font-[700] md:leading-[75px] leading-[45px]">
               SEND US A REQUEST TO CREATE UNIQUE PROJECT FOR YOU
             </h1>
           </div>
         </div>
 
-        <div className="md:w-[48%] w-full">
+        <div className="lg:w-[48%] w-full lg:pr-0 md:pr-8 pr-0">
           <div className="md:px-28 md:pt-0 pt-16">
             <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
               GET IN TOUCH TODAY - WE’RE AT YOUR SERVICE.
@@ -25,7 +25,7 @@ const HomeContact = () => {
               DROP A NOTE, AND WE’LL GET BACK TO YOU PROMPTLY
             </p>
           </div>
-          <form className="flex flex-col items-end md:pr-16 gap-y-6 md:ml-20 py-16">
+          <form className="flex flex-col items-end md:pr-16 gap-y-6 lg:ml-20 py-16">
             <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
                 <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">NAME</label>
               <input

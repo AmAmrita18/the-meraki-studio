@@ -15,7 +15,7 @@ const ContactHeader = () => {
               className="md:w-[80px]  md:h-[80px] w-[36px] h-[36px]"
             />
             <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
-              WORKS
+              CONTACT
             </h1>
           </div>
           <button className="md:flex hidden transition-all duration-700 ease-in-out  hover:scale-95 items-center justify-center  w-[180px] h-[38px] text-[12px] font-[600] text-white bg-black">

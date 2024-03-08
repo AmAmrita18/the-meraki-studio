@@ -109,7 +109,7 @@ const HeaderMobile = () => {
           THE MERAKI TRADEMARK
         </h1>
         <div className="bg-[#486249] mt-16 relative ml-5">
-          <h1 className="text-white py-8 px-2 text-[80px] leading-[97px] text-right font-[900]">
+          <h1 className="text-white py-8 px-2 md:text-[80px] text-[60px] leading-[97px] text-right font-[900]">
             APP
           </h1>
           <div className="bg-white mr-5 w-[90%]  absolute bottom-[-20px]  ">
@@ -132,7 +132,7 @@ const HeaderMobile = () => {
           THE MERAKI BLUEPRINT
         </h1>
         <div className="bg-black mt-16 relative ml-5">
-          <h1 className="text-white py-8 px-2 text-[80px] leading-[97px] text-right font-[900]">
+          <h1 className="text-white py-8 px-2 md:text-[80px] text-[60px] leading-[97px] text-right font-[900]">
             LAUNCH
           </h1>
           <div className="bg-[#486249] mr-5 w-[90%]  absolute bottom-[-20px]  ">

@@ -7,8 +7,8 @@ const ContactInfo = () => {
   return (
     <div>
       <div className="w-full">
-        <div className="w-full  md:pl-20 pl-5 md:pr-5 pr-8 h-full pt-8  m-w-[1200px]  flex  md:flex-row flex-col">
-          <div className="md:w-[48%] md:flex hidden">
+        <div className="w-full  md:pl-20 pl-5 md:pr-5 pr-8 h-full pt-8  m-w-[1200px]  flex  lg:flex-row flex-col">
+          <div className="lg:w-[48%] md:flex hidden">
             <div className="flex flex-col gap-y-8">
               <div className="flex flex-row gap-x-20 items-center">
                 <h2 className="text-[10px] text-black font-[800] tracking-wider leading-[12px]">
@@ -38,15 +38,15 @@ const ContactInfo = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-[48%] md:hidden flex w-full">
+          <div className="lg:w-[48%] md:hidden flex w-full">
             <div>
               <h1 className="text-black md:text-[85px] text-[49px] md:px-8   font-[700] md:leading-[75px] leading-[45px]">
                 SEND US A REQUEST TO CREATE UNIQUE PROJECT FOR YOU
               </h1>
             </div>
           </div>
-          <div className="md:w-[48%] w-full">
-            <div className="md:px-28 md:pt-0 pt-16">
+          <div className="lg:w-[48%] w-full">
+            <div className="lg:px-28 md:pt-16 pt-16">
               <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
                 GET IN TOUCH TODAY - WE’RE AT YOUR SERVICE.
               </p>
@@ -54,7 +54,7 @@ const ContactInfo = () => {
                 DROP A NOTE, AND WE’LL GET BACK TO YOU PROMPTLY
               </p>
             </div>
-            <form className="flex flex-col items-end md:pr-16 gap-y-6 md:ml-20 pt-16">
+            <form className="flex flex-col items-end lg:pr-16 md:pr-28 gap-y-6 lg:ml-20 pt-16">
               <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
                 <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   NAME

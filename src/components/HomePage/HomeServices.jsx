@@ -35,9 +35,9 @@ const HomeServices = () => {
     >
       <SwiperSlide>
         <div className="w-full">
-          <div className="w-full h-full  mx-auto m-w-[1200px] flex flex-row">
+          <div className="w-full h-full  mx-auto m-w-[1200px] flex lg:flex-row flex-col">
             <div
-              className="w-[48%] h-[816px]"
+              className="lg:w-[48%] h-[816px]"
               style={{
                 backgroundImage: `url('${homeServicesImg}')`,
                 backgroundRepeat: "no-repeat",
@@ -66,9 +66,9 @@ const HomeServices = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[48%] h-[816px]">
+            <div className="lg:w-[48%] h-[816px] lg:mb-0 mb-8">
               <div className="px-20">
-                <div className="flex justify-end">
+                <div className="flex justify-end lg:mr-0 mr-8">
                   <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
@@ -91,9 +91,9 @@ const HomeServices = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="w-full">
-          <div className="w-full h-full  mx-auto m-w-[1200px] flex flex-row">
+          <div className="w-full h-full  mx-auto m-w-[1200px] flex lg:flex-row flex-col">
             <div
-              className="w-[48%] h-[816px]"
+              className="lg:w-[48%] h-[816px]"
               style={{
                 backgroundImage: `url('${homeServicesImg}')`,
                 backgroundRepeat: "no-repeat",
@@ -122,9 +122,9 @@ const HomeServices = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[48%] h-[816px]">
-              <div className="px-20">
-                <div className="flex justify-end">
+            <div className="lg:w-[48%] h-[816px] ">
+              <div className="px-20 lg:mb-0 mb-10">
+                <div className="flex justify-end lg:mr-0 mr-8">
                   <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
@@ -147,9 +147,9 @@ const HomeServices = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="w-full">
-          <div className="w-full h-full  mx-auto m-w-[1200px] flex flex-row">
+          <div className="w-full h-full  mx-auto m-w-[1200px] flex lg:flex-row flex-col">
             <div
-              className="w-[48%] h-[816px]"
+              className="lg:w-[48%] h-[816px]"
               style={{
                 backgroundImage: `url('${homeServicesImg}')`,
                 backgroundRepeat: "no-repeat",
@@ -178,10 +178,10 @@ const HomeServices = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[48%] h-[816px]">
-              <div className="px-20">
+            <div className="lg:w-[48%]  h-[816px]">
+              <div className="px-20 lg:mb-0 mb-10">
                 <div className="flex justify-end">
-                  <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="w-[180px] h-[38px] lg:mr-0 mr-8 transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>

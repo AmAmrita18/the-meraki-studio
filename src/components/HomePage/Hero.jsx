@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="w-full">
       <Header/>
       <div
-      className="w-full h-[135px] m-w-[1200px] relative  mt-28 md:flex hidden"
+      className="w-full lg:h-[135px] h-[115px] m-w-[1200px] relative  mt-28 md:flex hidden"
       style={{
         backgroundImage: `url('${heroImg}')`,
         backgroundRepeat: "no-repeat",
@@ -16,7 +16,7 @@ const Hero = () => {
       }}
     >
       
-      <h1 className="text-white text-[195px] pl-28 mx-auto font-[700] top-[-75px] absolute ">
+      <h1 className="text-white lg:text-[195px] text-[162px] lg:pl-28 pl-4 mx-auto font-[700] lg:top-[-75px] top-[-60px] absolute ">
         MERAKI
       </h1>
       <HomeInfo/>

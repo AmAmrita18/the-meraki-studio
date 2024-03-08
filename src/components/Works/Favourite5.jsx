@@ -7,8 +7,8 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 const Favourite5 = () => {
   return (
     <div className="w-full">
-      <div className="md:w-[90%]  md:pl-20 ml-6 pr-5 flex flex-col gap-y-28  h-full  py-16">
-        <div className="flex md:flex-row flex-col-reverse md:mt-8">
+      <div className="md:w-[90%] md:mr-0 mr-6  md:pl-20 ml-6 lg:pr-5 md:pr-16 flex flex-col gap-y-28  h-full  py-16">
+        <div className="flex md:flex-row flex-col-reverse md:mt-8 ">
           <div className="md:w-[48%] md:mr-16 flex flex-col gap-y-8 py-8">
             <h1 className="text-black md:flex hidden text-[38px] font-[700] leading-[46.32px] text-end">
               CENTRE D’AMITIÉ
