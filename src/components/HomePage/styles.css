@@ -66,8 +66,9 @@
    bottom: 40% !important;
    gap: 5px;
   
-  margin-left: -27%;
+  margin-left: 14%;
   }
+
   
   .swiper-pagination-bullet {
     display: flex;

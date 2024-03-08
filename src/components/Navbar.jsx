@@ -3,15 +3,32 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { IoIosCloseCircle } from "react-icons/io";
+import { useParams, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showServices, setShowServices] = useState(false);
+
+  const [tabValue, setTabValue] = useState('');
+
+  const { tab } = useParams();
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   useEffect(() => {
+    // Extracting query parameters
+    const searchParams = new URLSearchParams(location.search);
+    const tabValue = searchParams.get('tab');
+
+    setTabValue(tabValue);
+
+  }, [location.search]);
+
+  useEffect(() => {
+
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setIsMenuOpen(false);
@@ -104,13 +121,31 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <NavLink
-                to="/services"
-                className={({ isActive }) => `${isActive && "text-black"}`}
+              <h2
+                onClick={() => setShowServices(!showServices)}
+                className={`${showServices && ""}`}
               >
                 SERVICES
-              </NavLink>
+              </h2>
             </li>
+            {
+              showServices && (
+                  <li className="transition-all duration-700 ease-in-out flex gap-x-4 hover:scale-95 ">
+                    <NavLink
+                      to="/services?tab=digital"
+                      className={({ isActive }) => `${isActive && tabValue === 'digital' && "text-black underline"}`}
+                    >
+                      Digital
+                    </NavLink>
+                    <NavLink
+                      to="/services?tab=business"
+                      className={({ isActive }) => `${isActive && tabValue === 'business' && "text-black underline"}`}
+                    >
+                      Business
+                    </NavLink>
+                  </li>
+              )
+            }
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <NavLink
                 to="/contact"

@@ -29,9 +29,9 @@ const ServicesSlides2 = () => {
       >
         <SwiperSlide>
           <div className="w-full bg-white">
-            <div className="w-full py-16 pl-10 h-full mx-auto max-w-[1200px] ">
+            <div className="w-full py-16 lg:pl-10 pl-56 h-full mx-auto max-w-[1200px] ">
               <div className="flex flex-row  justify-between items-center">
-                <div className=" flex flow-row gap-x-28 items-center">
+                <div className=" flex flow-row lg:gap-x-28 gap-x-4 items-center">
                   <img
                     src={logoGreen}
                     width={80}
@@ -46,12 +46,12 @@ const ServicesSlides2 = () => {
                     MOBILE
                   </h1>
                 </div>
-                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px]  lg:mr-28 mr-72 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
-              <div className="flex flex-row justify-center gap-20 mt-20">
-                <div className="w-[20%] flex flex-col gap-y-4">
+              <div className="flex lg:flex-row flex-col justify-center gap-20 mt-20">
+                <div className="lg:w-[20%] md:w-[60%] flex flex-col gap-y-4">
                   <p className="text-[10px] font-[700] leading-[25px] tracking-wider text-black">
                     OUR TEAM CRAFTS EXCEPTIONAL MOBILE APP DESIGNS, NO MATTER
                     HOW INTRICATE THE REQUIREMENTS
@@ -89,9 +89,9 @@ const ServicesSlides2 = () => {
 
         <SwiperSlide>
           <div className="w-full bg-white">
-            <div className="w-full py-16 pl-10   h-full mx-auto max-w-[1200px] ">
+            <div className="w-full py-16 lg:pl-10 pl-56 h-full mx-auto max-w-[1200px] ">
               <div className="flex flex-row justify-between items-center">
-                <div className=" flex flow-row gap-x-28 items-center">
+                <div className=" flex flow-row lg:gap-x-28 gap-x-4 items-center">
                   <img src={logoGreen} width={80} height={80} alt="" />
                   <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                     SERVICES
@@ -100,12 +100,12 @@ const ServicesSlides2 = () => {
                     SELL
                   </h1>
                 </div>
-                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px]  lg:mr-28 mr-72 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
-              <div className="flex flex-row justify-center gap-20 mt-20">
-                <div className="w-[20%] flex flex-col gap-y-4">
+              <div className="flex lg:flex-row flex-col justify-center gap-20 mt-20">
+                <div className="lg:w-[20%] md:w-[60%] flex flex-col gap-y-4">
                   <p className="text-[10px] font-[700] leading-[25px] tracking-wider text-black">
                     SELL MORE WITH MERAKI.
                   </p>

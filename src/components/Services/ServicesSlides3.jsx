@@ -29,9 +29,9 @@ const ServicesSlides3 = () => {
       >
         <SwiperSlide>
           <div className="w-full bg-white">
-            <div className="w-full py-16 pl-10 h-full mx-auto max-w-[1200px] ">
-              <div className="flex flex-row  justify-between items-center">
-                <div className=" flex flow-row gap-x-28 items-center">
+            <div className="w-full py-16 lg:pl-10 pl-56 h-full mx-auto max-w-[1200px] ">
+              <div className="flex flex-row   justify-between items-center">
+                <div className=" flex flow-row lg:gap-x-28 gap-x-4 items-center">
                   <img
                     src={logoGreen}
                     width={80}
@@ -46,12 +46,12 @@ const ServicesSlides3 = () => {
                     SEO
                   </h1>
                 </div>
-                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px]  lg:mr-28 mr-72 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
-              <div className="flex flex-row justify-center gap-20 mt-20">
-                <div className="w-[20%] flex flex-col gap-y-4">
+              <div className="flex lg:flex-row flex-col justify-center gap-20 mt-20">
+                <div className="lg:w-[20%] md:w-[60%] flex flex-col gap-y-4">
                   <p className="text-[10px] font-[700] leading-[25px] tracking-wider text-black">
                     OUR TEAM CURATE TAILORED SEO SOLUTIONS, SUITABLE FOR ANY
                     BUSINESS SCOPE.{" "}
@@ -67,7 +67,7 @@ const ServicesSlides3 = () => {
                     </h1>
                   </button> */}
                 </div>
-                <ul className="w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
+                <ul className="lg:w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
                   <li className="flex flex-row gap-1">
                     <TbPointFilled />
                     ON-PAGE OPTIMIZATION{" "}
@@ -92,9 +92,9 @@ const ServicesSlides3 = () => {
 
         <SwiperSlide>
           <div className="w-full bg-white">
-            <div className="w-full py-16 pl-10   h-full mx-auto max-w-[1200px] ">
+            <div className="w-full py-16 lg:pl-10 pl-56 h-full mx-auto max-w-[1200px] ">
               <div className="flex flex-row justify-between items-center">
-                <div className=" flex flow-row gap-x-28 items-center">
+                <div className=" flex flow-row lg:gap-x-28 gap-x-4 items-center">
                   <img src={logoGreen} width={80} height={80} alt="" />
                   <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                     SERVICES
@@ -103,12 +103,12 @@ const ServicesSlides3 = () => {
                     GROW
                   </h1>
                 </div>
-                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px] mr-28 font-[600] text-white bg-black">
+                <button className="w-[180px] transition-all duration-700 ease-in-out  hover:scale-95  h-[38px] text-[12px]  lg:mr-28 mr-72 font-[600] text-white bg-black">
                   HIRE US
                 </button>
               </div>
-              <div className="flex flex-row justify-center gap-20 mt-20">
-                <div className="w-[20%] flex flex-col gap-y-4">
+              <div className="flex lg:flex-row flex-col justify-center gap-20 mt-20">
+                <div className="lg:w-[20%] md:w-[60%] flex flex-col gap-y-4">
                   <p className="text-[10px] font-[700] leading-[25px] tracking-wider text-black">
                     GROW BIG WITH MERAKI.
                   </p>
@@ -125,7 +125,7 @@ const ServicesSlides3 = () => {
                     </h1>
                   </button> */}
                 </div>
-                <ul className="w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
+                <ul className="lg:w-[40%] flex flex-col gap-y-4 text-[10px] text-black font-[700] tracking-wider">
                   <li className="flex  flex-row gap-1">
                     <TbPointFilled />
                     GROWTH STRATEGY{" "}
