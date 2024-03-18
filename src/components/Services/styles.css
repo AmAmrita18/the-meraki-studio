@@ -47,8 +47,11 @@ body {
 .swiper-pagination-vertical {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  padding-right: 8.5rem;
+  gap: 3rem;
+  padding-right: 10%;
+  padding-bottom: 2%;
+  
+  
 }
 
 .swiper-pagination-horizontal {

@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const ContactFooter = () => {
   return (
     <div className="w-full bg-white">
-      <div className="flex md:flex-row flex-col md:justify-between gap-y-3 justify-center items-center w-full md:mt-0 mt-16  md:pl-20 md:pr-40 md:pb-0 pb-8  h-full  m-w-[1200px] ">
+      <div className="flex md:flex-row flex-col md:justify-between gap-y-3 justify-center items-center w-full md:mt-0 mt-16  md:pl-20 md:pr-32 md:pt-12 pb-8  h-full  m-w-[1200px] ">
         <div className="flex flex-row gap-1">
           <p className="text-[10px] text-black font-[800] leading-[12px] tracking-wider">
             A MATTER OF LIFE AND DEATH? WRITE US HERE:

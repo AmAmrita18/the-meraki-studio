@@ -18,14 +18,14 @@ const ContactHeader = () => {
               CONTACT
             </h1>
           </div>
-          <button className="md:flex hidden transition-all duration-700 ease-in-out  hover:scale-95 items-center justify-center  w-[180px] h-[38px] text-[12px] font-[600] text-white bg-black">
-            HIRE US
-          </button>
-          <div className="flex md:hidden w-full transition-all duration-700 ease-in-out  hover:scale-95 justify-center md:mt-0 mt-8  bg-black">
-            <button className=" text-white py-6 text-[18px] font-[600] text-center">
-              HIRE US
-            </button>
-          </div>
+          <div className="lg:px-24 md:pt-0  pt-16">
+              <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
+                GET IN TOUCH TODAY - WE’RE AT YOUR SERVICE.
+              </p>
+              <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
+                DROP A NOTE, AND WE’LL GET BACK TO YOU PROMPTLY
+              </p>
+            </div>
         </div>
       </div>
     </div>

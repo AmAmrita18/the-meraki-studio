@@ -2,12 +2,13 @@ import React from "react";
 import heroImg from "../../assets/hero.png";
 import HomeInfo from "./HomeInfo";
 import Header from "./Header";
+import Footer from "../Footer";
 const Hero = () => {
   return (
     <div className="w-full">
       <Header/>
       <div
-      className="w-full lg:h-[135px] h-[115px] m-w-[1200px] relative  mt-28 md:flex hidden"
+      className="w-full lg:h-[135px] h-[115px] m-w-[1200px] relative  mt-28 md:flex flex-col hidden"
       style={{
         backgroundImage: `url('${heroImg}')`,
         backgroundRepeat: "no-repeat",
@@ -20,6 +21,7 @@ const Hero = () => {
         MERAKI
       </h1>
       <HomeInfo/>
+      
     </div>
     </div>
   );

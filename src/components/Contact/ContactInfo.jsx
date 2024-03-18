@@ -14,7 +14,7 @@ const ContactInfo = () => {
                 <h2 className="text-[10px] text-black font-[800] tracking-wider leading-[12px]">
                   WORK EMAIL:
                 </h2>
-                <h1 className="text-black font-[700] text-[20px] leading-[24px] tracking-wider">
+                <h1 className="text-black font-[700]  text-[20px] leading-[24.38px] tracking-wider">
                   HELLO@THEMERAKISTUDIO.CO
                 </h1>
               </div>
@@ -22,7 +22,7 @@ const ContactInfo = () => {
                 <h2 className="text-[10px] text-black font-[800] tracking-wider leading-[12px]">
                   SALES EMAIL:
                 </h2>
-                <h1 className="text-black font-[700] text-[20px] leading-[24px] tracking-wider">
+                <h1 className="text-black font-[700] text-[20px] leading-[24.38px] tracking-wider">
                   HIRE@THEMERAKISTUDIO.CO
                 </h1>
               </div>
@@ -45,16 +45,9 @@ const ContactInfo = () => {
               </h1>
             </div>
           </div>
-          <div className="lg:w-[48%] w-full">
-            <div className="lg:px-28 md:pt-16 pt-16">
-              <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
-                GET IN TOUCH TODAY - WE’RE AT YOUR SERVICE.
-              </p>
-              <p className="text-black font-[700] text-[10px] tracking-wider leading-snug">
-                DROP A NOTE, AND WE’LL GET BACK TO YOU PROMPTLY
-              </p>
-            </div>
-            <form className="flex flex-col items-end lg:pr-16 md:pr-28 gap-y-6 lg:ml-20 pt-16">
+          <div className="lg:w-[48%]  w-full">
+           
+            <form className="flex flex-col items-end lg:pr-16 md:pr-28 gap-y-6 lg:ml-20 md:pt-0 pt-16">
               <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
                 <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   NAME
