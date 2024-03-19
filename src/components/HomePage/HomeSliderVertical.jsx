@@ -29,16 +29,15 @@ const HomeSliderVertical = () => {
           modules={[Mousewheel, Pagination]}
         >
           <div className="w-full">
-            <div className="w-full  h-full mx-auto max-w-[1200px] ">
-              {" "}
-              <SwiperSlide className="h-full">
+            <div>              
+              <SwiperSlide >
                 <Hero />
               </SwiperSlide>
-              <SwiperSlide className="h-full">
+              <SwiperSlide >
                 <HomeServices />
               </SwiperSlide>
-              <SwiperSlide className="h-full">
-                <HomeContact />{" "}
+              <SwiperSlide>
+                <HomeContact />
               </SwiperSlide>
             </div>
           </div>

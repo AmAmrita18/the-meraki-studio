@@ -17,7 +17,7 @@ const Hero = () => {
       }}
     >
       
-      <h1 className="text-white lg:text-[195px] text-[162px] lg:pl-28 pl-4 mx-auto font-[700] lg:top-[-75px] top-[-60px] absolute ">
+      <h1 className="text-white lg:text-[200px] text-[162px] lg:pl-28 pl-4 mx-auto font-[700] lg:top-[-80px] top-[-60px] absolute ">
         MERAKI
       </h1>
       <HomeInfo/>
