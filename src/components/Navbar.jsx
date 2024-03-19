@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className="border-[#A4A4A4] md:flex hidden border-b w-screen ">
           <nav className="bg-white   md:pr-64 md:pl-20 px-0 py-[33px] ">
             <ul className="md:flex hidden lg:gap-x-14 md:gap-x-8 items-center  gap-4 md:text-[13px] tracking-wider text-[10px] font-[600] text-[#A4A4A4] leading-6">
-              <li className="transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
+              <li className="text-[12px] font-[600] leading-[14.63px] text-center transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
                 <NavLink
                   to="/"
                   className={({ isActive }) => `${isActive && "text-[black]"}`}
@@ -55,7 +55,7 @@ const Navbar = () => {
                   HOMEPAGE
                 </NavLink>
               </li>
-              <li className="transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
+              <li className="text-[12px] font-[600] leading-[14.63px] text-center transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
                 <NavLink
                   to="/works"
                   className={({ isActive }) => `${isActive && "text-[black]"}`}
@@ -63,7 +63,7 @@ const Navbar = () => {
                   WORKS
                 </NavLink>
               </li>
-              <li className="transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
+              <li className="text-[12px] font-[600] leading-[14.63px] text-center transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
                 <NavLink
                   to="/services"
                   className={({ isActive }) => `${isActive && "text-[black]"}`}
@@ -71,7 +71,7 @@ const Navbar = () => {
                   SERVICES
                 </NavLink>
               </li>
-              <li className="transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
+              <li className="text-[12px] font-[600] leading-[14.63px] text-center transition-all duration-700 rotate-180 ease-in-out  hover:scale-95 ">
                 <NavLink
                   to="/contact"
                   className={({ isActive }) => `${isActive && "text-[black]"}`}

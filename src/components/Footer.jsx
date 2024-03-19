@@ -15,14 +15,14 @@ const Footer = () => {
 
         <div>
           <button className=''>
-              <h1 className='text-white bg-black text-[9px] font-[700] mr-44 tracking-wider'>SCROLL DOWN</h1>
+              <h1 className='text-white bg-black text-[9px] font-[700] mr-48 tracking-wider'>SCROLL DOWN</h1>
             </button>
         </div>
         <div className="flex flex-row md:ml-20 md:mt-0 mt-4 md:justify-normal justify-center gap-x-3">
           <h1 className="text-black md:pl-3 text-[10px] font-[800] tracking-wider">2024</h1>
           <h1 className="text-black pl-3 text-[10px] font-[800] tracking-wider">
             {" "}
-            THE MERAKI STUDIO
+            ©THE MERAKI STUDIO
           </h1>
         </div>
       </div>

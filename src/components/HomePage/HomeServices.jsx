@@ -45,7 +45,7 @@ const HomeServices = () => {
                 objectFit: "cover",
               }}
             >
-              <div className="px-20">
+              <div className="px-14">
                 <img
                   src={logoWhite}
                   width={70}
@@ -53,34 +53,34 @@ const HomeServices = () => {
                   alt=""
                   className="py-20"
                 />
-                <h1 className="text-white text-[33px] font-[700] leading-tight">
+                <h1 className="text-white text-[38px] font-[700] leading-[46.32px]">
                   DIGITAL SOLUTIONS:
                 </h1>
-                <h1 className="text-white text-[33px] font-[700] leading-tight">
+                <h1 className="text-white text-[38px] font-[700] leading-[46.32px]">
                   THE MERAKI TRADEMARK
                 </h1>
                 <div className="bg-[#486249] mt-7 py-4 ">
-                  <h1 className="text-white text-[95px] text-center font-[900]">
+                  <h1 className="text-white text-[100px] leading-[121.9px] text-center font-[900]">
                     WEB
                   </h1>
                 </div>
               </div>
             </div>
             <div className="lg:w-[48%] h-[816px] lg:mb-0 mb-8">
-              <div className="px-20">
+              <div className="px-14">
                 <div className="flex justify-end lg:mr-0 mr-8">
-                  <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="text-left pl-5 w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>
-                <h1 className="text-black text-[33px] font-[700] leading-tight">
+                <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                   BEYOND DIGITAL
                 </h1>
-                <h1 className="text-black text-[33px] font-[700] leading-tight">
+                <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                   THE MERAKI BLUEPRINT{" "}
                 </h1>
                 <div className="bg-black mt-7 py-4 ">
-                  <h1 className="text-white text-[95px] text-center font-[900]">
+                  <h1 className="text-white text-[100px] leading-[121.9px] text-center font-[900]">
                     LAUNCH
                   </h1>
                 </div>
@@ -101,7 +101,7 @@ const HomeServices = () => {
                 objectFit: "cover",
               }}
             >
-              <div className="px-20">
+              <div className="px-14">
                 <img
                   src={logoWhite}
                   width={70}
@@ -109,10 +109,10 @@ const HomeServices = () => {
                   alt=""
                   className="py-20"
                 />
-                <h1 className="text-white text-[33px] font-[700] leading-tight">
+                <h1 className="text-white text-[38px] font-[700] leading-[46.32px]">
                   DIGITAL SOLUTIONS:
                 </h1>
-                <h1 className="text-white text-[33px] font-[700] leading-tight">
+                <h1 className="text-white text-[38px] font-[700] leading-[46.32px]">
                   THE MERAKI TRADEMARK
                 </h1>
                 <div className="bg-[#486249] mt-7 py-4 ">
@@ -123,16 +123,16 @@ const HomeServices = () => {
               </div>
             </div>
             <div className="lg:w-[48%] h-[816px] ">
-              <div className="px-20 lg:mb-0 mb-10">
+              <div className="px-14 lg:mb-0 mb-10">
                 <div className="flex justify-end lg:mr-0 mr-8">
-                  <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="text-left pl-5 w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>
-                <h1 className="text-black text-[33px] font-[700] leading-tight">
+                <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                   BEYOND DIGITAL
                 </h1>
-                <h1 className="text-black text-[33px] font-[700] leading-tight">
+                <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                   THE MERAKI BLUEPRINT{" "}
                 </h1>
                 <div className="bg-black mt-7 py-4 ">
@@ -157,7 +157,7 @@ const HomeServices = () => {
                 objectFit: "cover",
               }}
             >
-              <div className="px-20">
+              <div className="px-14">
                 <img
                   src={logoWhite}
                   width={70}
@@ -165,10 +165,10 @@ const HomeServices = () => {
                   alt=""
                   className="py-20"
                 />
-                <h1 className="text-white text-[33px] font-[700] leading-tight">
+                <h1 className="text-white text-[38px] font-[700] leading-[46.32px]">
                   DIGITAL SOLUTIONS:
                 </h1>
-                <h1 className="text-white text-[33px] font-[700] leading-tight">
+                <h1 className="text-white text-[38px] font-[700] leading-[46.32px]">
                   THE MERAKI TRADEMARK
                 </h1>
                 <div className="bg-[#486249] mt-7 py-4 ">
@@ -179,16 +179,16 @@ const HomeServices = () => {
               </div>
             </div>
             <div className="lg:w-[48%]  h-[816px]">
-              <div className="px-20 lg:mb-0 mb-10">
+              <div className="px-14 lg:mb-0 mb-10">
                 <div className="flex justify-end">
-                  <button className="w-[180px] h-[38px] lg:mr-0 mr-8 transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
+                  <button className="text-left pl-5 w-[180px] h-[38px] lg:mr-0 mr-8 transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
                   </button>
                 </div>
-                <h1 className="text-black text-[33px] font-[700] leading-tight">
+                <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                   BEYOND DIGITAL
                 </h1>
-                <h1 className="text-black text-[33px] font-[700] leading-tight">
+                <h1 className="text-black text-[38px] font-[700] leading-[46.32px]">
                   THE MERAKI BLUEPRINT{" "}
                 </h1>
                 <div className="bg-black mt-7 py-4 ">
