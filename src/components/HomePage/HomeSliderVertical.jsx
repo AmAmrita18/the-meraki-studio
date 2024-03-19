@@ -27,9 +27,12 @@ const HomeSliderVertical = () => {
             clickable: true,
           }}
           modules={[Mousewheel, Pagination]}
+          speed={1500} 
+          effect={"fade"} 
+          fadeEffect={{ crossFade: true }} 
         >
           <div className="w-full">
-            <div>              
+            <div>
               <SwiperSlide >
                 <Hero />
               </SwiperSlide>

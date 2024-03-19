@@ -11,7 +11,7 @@ const HomeContact = () => {
         <div className="lg:w-[48%] w-full">
           <div>
             <h1 className="text-black lg::text-[85px] md:text-[73px] text-[49px] md:px-8 font-[700] md:leading-[75px] leading-[45px] ">
-              SEND US A REQUEST TO CREATE UNIQUE PROJECT FOR YOU
+              SEND US A REQUEST TO CREATE <br /> UNIQUE <br /> PROJECT <br /> FOR YOU
             </h1>
           </div>
         </div>

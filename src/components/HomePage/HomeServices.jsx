@@ -31,7 +31,10 @@ const HomeServices = () => {
       */
       navigation={false}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      speed={1500} 
+      effect={"fade"} 
+      fadeEffect={{ crossFade: true }} 
+      className="mySwiper "
     >
       <SwiperSlide>
         <div className="w-full">

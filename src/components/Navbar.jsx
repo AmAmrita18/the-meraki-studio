@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full relative ">
-      <div className="flex  w-[90px]  h-[90px] fixed top-0 bottom-0 right-0  md:pl-0 pl-8   justify-start md:rotate-90 items-center z-30">
+      <div className="flex  w-[80px]  h-[80px] fixed top-0 bottom-0 right-0  md:pl-0 pl-8   justify-start md:rotate-90 items-center z-30">
         <div className="border-[#A4A4A4] md:flex hidden border-b w-screen ">
           <nav className="bg-white   md:pr-64 md:pl-20 px-0 py-[33px] ">
             <ul className="md:flex hidden lg:gap-x-14 md:gap-x-8 items-center  gap-4 md:text-[13px] tracking-wider text-[10px] font-[600] text-[#A4A4A4] leading-6">

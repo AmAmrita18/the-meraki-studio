@@ -27,6 +27,9 @@ const ServicesSlidesVertical = () => {
             clickable: true,
           }}
           modules={[Mousewheel, Pagination]}
+          speed={1500} 
+          effect={"fade"} 
+          fadeEffect={{ crossFade: true }} 
         >
           <div className="w-full">
             <div className="w-full  h-full mx-auto max-w-[1200px] ">

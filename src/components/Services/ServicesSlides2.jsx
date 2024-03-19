@@ -26,6 +26,9 @@ const ServicesSlides2 = () => {
           clickable: true,
         }}
         modules={[Keyboard, Pagination]}
+        speed={1500} 
+        effect={"fade"} 
+        fadeEffect={{ crossFade: true }} 
       >
         <SwiperSlide>
           <div className="w-full bg-white">
