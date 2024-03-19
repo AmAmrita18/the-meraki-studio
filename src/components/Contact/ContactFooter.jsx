@@ -15,7 +15,7 @@ const ContactFooter = () => {
           <p className="text-[10px] text-black font-[800] leading-[12px] tracking-wider">
             2024
           </p>
-          <p className="text-[10px] text-black font-[800] leading-[12px] tracking-wider">
+          <p className="text-[10px] mr-16 text-black font-[800] leading-[12px] tracking-wider">
             THE MERAKI STUDIO
           </p>
         </div>

@@ -47,7 +47,7 @@ const ContactInfo = () => {
           </div>
           <div className="lg:w-[48%]  w-full">
            
-            <form className="flex flex-col items-end lg:pr-16 md:pr-28 gap-y-6 lg:ml-20 md:pt-0 pt-16">
+            <form className="flex flex-col mr-14 items-end lg:pr-16 md:pr-28 gap-y-6 lg:ml-20 md:pt-0 pt-16">
               <div className="text-[#0A385A] w-full border-b border-[#8D8D8D] ">
                 <label className="text-black tracking-wider pl-3 text-[12px] font-[600] ">
                   NAME
@@ -91,7 +91,7 @@ const ContactInfo = () => {
                 />
               </div>
               <div className="md:flex hidden">
-                <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 tracking-wider mt-16 mb-12  text-[12px] font-[600] text-white bg-black ">
+                <button className="w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 tracking-wider mt-16 mb-12  text-[12px] leading-[14.63px] text-left pl-5 font-[600] text-white bg-black ">
                   SEND
                 </button>
               </div>

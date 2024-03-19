@@ -18,7 +18,7 @@ const HeaderWorks = () => {
               WORKS
             </h1>
           </div>
-          <button className="md:flex items-center justify-center transition-all duration-700 ease-in-out  hover:scale-95 hidden w-[180px] h-[38px] text-[12px] font-[600] text-white bg-black">
+          <button className="md:flex items-center  transition-all duration-700 ease-in-out  hover:scale-95 hidden w-[180px] h-[38px] text-[12px] text-left pl-5 leading-[14.63px] font-[600] text-white bg-black">
             HIRE US
           </button>
           <div className="flex md:hidden  w-full justify-center md:mt-0 mt-8  bg-black">
