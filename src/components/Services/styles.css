@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  height: 93vh !important;
+  height: 100vh !important;
   width: 100% !important;
 }
 
@@ -49,7 +49,7 @@ body {
   flex-direction: column;
   gap: 3rem;
   padding-right: 10%;
-  padding-bottom: 2%;
+  padding-bottom: 9%;
 }
 
 .swiper-pagination-horizontal {
