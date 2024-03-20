@@ -66,11 +66,12 @@ const ServicesSlides = () => {
                   <p className="text-[10px] font-[700] leading-[25px] tracking-wider text-black">
                     WE FOCUS ON WHAT YOU NEED.
                   </p>
-                  <button className="bg-black w-[70px] mt-12">
-                    <h1 className="text-white text-[9px] font-[700]">
+                  <button className="bg-black w-[80px] mt-12">
+                    <h1 className="text-white text-[9px] leading-[10.97px] tracking-wider font-[700]">
                       SCROLL DOWN
                     </h1>
                   </button>
+                  
                 </div>
                 <ul className="lg:w-[40%] flex flex-col  text-[10px] leading-[40px] text-black font-[700] tracking-wider">
                   <li className="flex  flex-row items-center gap-1">
@@ -130,8 +131,8 @@ const ServicesSlides = () => {
                     FROM INITIAL IDEA TO OPENING DAY, WE'RE WITH YOU ALL THE
                     WAY. WE MAKE SURE YOUR BUSINESS GETS OFF TO A FLYING START.
                   </p>
-                  <button className="bg-black w-[70px] mt-12">
-                    <h1 className="text-white text-[9px] font-[700]">
+                  <button className="bg-black w-[80px] mt-12">
+                    <h1 className="text-white text-[9px] font-[700] leading-[10.97px] tracking-wider">
                       SCROLL DOWN
                     </h1>
                   </button>

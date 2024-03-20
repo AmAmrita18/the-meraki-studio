@@ -63,8 +63,8 @@ const ServicesSlides2 = () => {
                     WE TAKE A HOLISTIC APPROACH TO YOUR APP’S DESIGN DELIVERING
                     WELL-CONSIDERED LAYOUTS THAT ADHERE TO MODERN UI STANDARDS.
                   </p>
-                  <button className='bg-black w-[70px] mt-12'>
-                    <h1 className='text-white text-[9px] font-[700]'>SCROLL DOWN</h1>
+                  <button className='bg-black w-[80px] mt-12'>
+                    <h1 className='text-white text-[9px] font-[700] leading-[10.97px] tracking-wider'>SCROLL DOWN</h1>
                   </button>
                 </div>
                 <ul className="w-[40%] flex flex-col  text-[10px] leading-[40px] text-black font-[700] tracking-wider">
@@ -120,8 +120,8 @@ const ServicesSlides2 = () => {
                     WE HELP YOU CONNECT WITH CUSTOMERS AND CLOSE DEALS. SIMPLE,
                     FAST, EFFECTIVE.
                   </p>
-                  <button className='bg-black w-[70px] mt-12'>
-                    <h1 className='text-white text-[9px] font-[700]'>SCROLL DOWN</h1>
+                  <button className='bg-black w-[80px] mt-12'>
+                    <h1 className='text-white text-[9px] font-[700] leading-[10.97px] tracking-wider'>SCROLL DOWN</h1>
                   </button>
                 </div>
                 <ul className="w-[40%] flex flex-col leading-[40px] text-[10px] text-black font-[700] tracking-wider">

@@ -64,8 +64,8 @@ const ServicesSlides3 = () => {
                     GIVING YOU A ROBUST SEO BLUEPRINT COMPLIANT WITH THE LATEST
                     STARDARDS.{" "}
                   </p>
-                  <button className="bg-black w-[70px] mt-12">
-                    <h1 className="text-white text-[9px] font-[700]">
+                  <button className="bg-black w-[80px] mt-12">
+                    <h1 className="text-white text-[9px] font-[700] leading-[10.97px] tracking-wider">
                       SCROLL DOWN
                     </h1>
                   </button>
@@ -122,8 +122,8 @@ const ServicesSlides3 = () => {
                     WE PROVIDE THE STRATEGIES AND TOOLS YOU NEED TO EXPAND YOUR
                     REACH AND GROW YOUR PROFITS.
                   </p>
-                  <button className="bg-black w-[70px] mt-12">
-                    <h1 className="text-white text-[9px] font-[700]">
+                  <button className="bg-black w-[80px] mt-12">
+                    <h1 className="text-white text-[9px] font-[700] leading-[10.97px] tracking-wider">
                       SCROLL DOWN
                     </h1>
                   </button>
