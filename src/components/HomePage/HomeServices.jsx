@@ -48,7 +48,7 @@ const HomeServices = () => {
                 objectFit: "cover",
               }}
             >
-              <div className="px-14">
+              <div className="px-10">
                 <img
                   src={logoWhite}
                   width={70}
@@ -70,7 +70,7 @@ const HomeServices = () => {
               </div>
             </div>
             <div className="lg:w-[48%] h-[816px] lg:mb-0 mb-8">
-              <div className="px-14">
+              <div className="px-10">
                 <div className="flex justify-end lg:mr-0 mr-8">
                   <button className="text-left pl-5 w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
@@ -104,7 +104,7 @@ const HomeServices = () => {
                 objectFit: "cover",
               }}
             >
-              <div className="px-14">
+              <div className="px-10">
                 <img
                   src={logoWhite}
                   width={70}
@@ -126,7 +126,7 @@ const HomeServices = () => {
               </div>
             </div>
             <div className="lg:w-[48%] h-[816px] ">
-              <div className="px-14 lg:mb-0 mb-10">
+              <div className="px-10 lg:mb-0 mb-10">
                 <div className="flex justify-end lg:mr-0 mr-8">
                   <button className="text-left pl-5 w-[180px] h-[38px] transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
@@ -160,7 +160,7 @@ const HomeServices = () => {
                 objectFit: "cover",
               }}
             >
-              <div className="px-14">
+              <div className="px-10">
                 <img
                   src={logoWhite}
                   width={70}
@@ -182,7 +182,7 @@ const HomeServices = () => {
               </div>
             </div>
             <div className="lg:w-[48%]  h-[816px]">
-              <div className="px-14 lg:mb-0 mb-10">
+              <div className="px-10 lg:mb-0 mb-10">
                 <div className="flex justify-end">
                   <button className="text-left pl-5 w-[180px] h-[38px] lg:mr-0 mr-8 transition-all duration-700 ease-in-out  hover:scale-95 my-24  text-[12px] font-[600] text-white bg-black ">
                     HIRE US
