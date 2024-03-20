@@ -71,7 +71,7 @@ const Favourite5 = () => {
               alt=""
               width={541}
               height={753}
-              className="md:ml-14 ml-0"
+              className=" ml-0"
             />
           </div>
         </div>
@@ -140,7 +140,7 @@ const Favourite5 = () => {
               alt=""
               width={541}
               height={753}
-              className="md:ml-14 ml-0"
+              className=" ml-0"
             />
           </div>
         </div>

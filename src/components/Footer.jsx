@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="w-full bg-transparent relative ">
-      <div className="md:w-[90%] absolute top-[-4.5rem] z-50 w-full flex md:flex-row flex-col md:pl-20 md:pr-5 bg-transparent md:gap-y-0 gap-y-3  h-full max-w-[1200px]  md:justify-between justify-center items-center pb-16">
+      <div className="md:w-[90%] absolute lg:top-[-4.5rem] z-50 w-full flex md:flex-row flex-col md:pl-20 md:pr-5 bg-transparent md:gap-y-0 gap-y-3  h-full max-w-[1200px]  md:justify-between justify-center items-center pb-16">
         <div className="flex md:flex-row flex-col gap-x-8 gap-y-3 items-center">
           <h1 className="text-black  text-[10px] font-[800] tracking-wider">
             SOCIAL:
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <button className="">
+          <button className="md:block hidden">
             <h1 className="text-white bg-black text-[9px] font-[700] mr-48 tracking-wider">
               SCROLL DOWN
             </h1>
